@@ -9,12 +9,20 @@ body
 {
     height: 100vh;
     font-family: 'Poppins';
+    scroll-behavior: smooth;
+    
 }
 
 .webgl
 {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     outline: none;
+   
+}
+.container h2{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
